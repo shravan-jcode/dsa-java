@@ -53,12 +53,32 @@ public class ThreeD {
             }
         }
 
+        //find min max
+        int min =threeD[0][0][0];
+        int max =threeD[0][0][0];
+
+        for(int[][] layer:threeD){
+            for(int[] row :layer ){
+                for(int x:row){
+                    if(x<min){
+                        min=x;
+                    }
+                    if(x>max){
+                        max=x;
+                    }
+                }
+            }
+        }
+
+
         // Result
         if (found) {
             System.out.println(num + " exists in the array.");
         } else {
             System.out.println(num + " doesn't exist in the array.");
         }
+
+        System.out.println("Minimum: " +min+ " Maximum: "+max);
 
         sc.close();
     }
