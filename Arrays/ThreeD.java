@@ -63,7 +63,9 @@ public class ThreeD {
                     if(x<min){
                         min=x;
                     }
-                    if(x>max){
+                    if(x>max
+                        
+                    ){
                         max=x;
                     }
                 }
