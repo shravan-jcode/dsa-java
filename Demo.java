@@ -1,7 +1,11 @@
-public class Demo {
+import java.util.ArrayList;
 
-    public static void main(String[] args) {
-        double r= 7.0/2;
-        System.out.println(r);
+public class Demo{
+
+    public static void main(String args []){
+
+        ArrayList<String> list =new ArrayList<>();
+
+        list.add
     }
 }
