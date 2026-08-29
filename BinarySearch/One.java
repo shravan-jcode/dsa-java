@@ -32,9 +32,9 @@ public class One {
             } else {
 
                 if (target > arr[mid]) {
-                    start = mid + 1;
+                    end = mid - 1; // Notice this changed
                 } else {
-                    end = mid - 1;
+                    start = mid + 1; // Notice this changed
                 }
 
             }
@@ -46,12 +46,12 @@ public class One {
     public static void main(String[] args) {
 
         // Ascending array
-        int[] arr1 = {10, 20, 30, 40, 50, 60, 70};
+        int[] arr1 = { 10, 20, 30, 40, 50, 60, 70 };
         int result1 = binarySearch(arr1, 60);
         System.out.println("Index in ascending array: " + result1);
 
         // Descending array
-        int[] arr2 = {70, 60, 50, 40, 30, 20, 10};
+        int[] arr2 = { 70, 60, 50, 40, 30, 20, 10 };
         int result2 = binarySearch(arr2, 60);
         System.out.println("Index in descending array: " + result2);
     }

@@ -1,4 +1,5 @@
 package BinarySearch;
+
 class MountainArray {
     private int[] arr;
 
@@ -19,7 +20,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] nums = {1, 3, 5, 7, 6, 4, 2};
+        int[] nums = { 1, 3, 5, 7, 6, 4, 2 };
         int target = 4;
 
         MountainArray mountainArr = new MountainArray(nums);

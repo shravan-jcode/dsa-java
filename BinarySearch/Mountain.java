@@ -23,7 +23,7 @@ public class Mountain {
 
     public static void main(String[] args) {
 
-        int[] arr = {0, 1, 2, 3, 2, 1};
+        int[] arr = { 0, 1, 2, 3, 2, 1 };
 
         System.out.println(peakIndexInMountainArray(arr));
     }
