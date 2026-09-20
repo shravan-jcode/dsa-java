@@ -4,8 +4,8 @@ public class BS2 {
 
     static int[] search(int[][] arr, int target) {
 
-        int rows = arr.length;
-        int cols = arr[0].length;
+        int rows = arr.length; //2
+        int cols = arr[0].length; //4
 
         // Imagine the 2D array as a 1D sorted array
         int left = 0;
